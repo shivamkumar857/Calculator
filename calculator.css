@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poqu', sans-serif;
+    background-color: #f0f0f0;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    /* margin: 20px; */
+    /* padding: 10px */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 20px;
+}
+.cal{
+    width: 300px;
+    height: 400px;
+    background-color: #989696da;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    /* backdrop-filter: blur(50px); */
+}
+.row0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+}
+.row0 input{
+    width: 100%;
+    height: 40px;
+    /* border: none; */
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+.row0 input:focus{
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.row0 button{
+    width: 10%;
+    height: 40px;
+    /* border: none; */
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.row1{
+    display: flex;
+    /* left: 20px; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:0px;
+    padding: 15px;
+    /* border-radius: 10px; */
+}
+.row1 button{
+    font-size: 30px;
+}
+#s1{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+    
+    
+
+}
+#s2{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+
+
+}
+#s3{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+
+}
+.row2{
+    display: flex;
+    /* left: 20px; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:0px;
+    padding: 15px;
+    /* border-radius: 10px; */
+}
+.row2 button{
+    font-size: 30px;
+}
+#s4{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+
+
+}
+#splus{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+
+}
+
+#s5{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+
+
+}
+#s6{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+
+
+}
+#sminus{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+
+
+}
+
+.row3{
+    display: flex;
+    /* left: 20px; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:0px;
+    padding: 15px;
+    
+    /* border-radius: 10px; */
+}
+.row3 button{
+    font-size: 30px;
+}
+
+
+#s7{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;}
+#s8{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;   }
+
+#s9{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+
+}
+#smultiply{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+
+}
+.row4{
+    display: flex;
+    /* left: 20px; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:0px;
+    padding: 15px;
+    /* border-radius: 10px; */
+}
+#s0{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+    font-size: 30px;
+
+
+}
+#sdecimal{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    /* background-color: #4CAF50; */
+    /* text-align: center; */
+    /* justify-content: center; */
+
+}
+#sequal{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+#sdiv{
+    border-radius: 5px;
+    width: 20%;
+    margin: 3px;
+    cursor: pointer;
+    font-size: 30px;
+
+}
